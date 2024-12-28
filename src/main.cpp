@@ -8,7 +8,6 @@
 
 using namespace std;
 
-// main starts here.
 int main()
 {
     Game game;
