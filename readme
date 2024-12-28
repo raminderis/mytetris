@@ -1,0 +1,6 @@
+Build with debug:
+> g++ -g -I/opt/homebrew/include -I./include -o build/TetrisGame src/*.cpp -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
+
+Build without debug:
+> g++ -I/opt/homebrew/include -I./include -o build/TetrisGame src/*.cpp -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
+

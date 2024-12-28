@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "src/main.cpp",
+                "src/functions.cpp",
+                "src/game.cpp",
+                "-Iinclude",
+                "-I/opt/homebrew/include",
+                "-L/opt/homebrew/lib",
+                "-o",
+                "build/TetrisGame",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
